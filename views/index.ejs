@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <title>Innovative Thinking</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/social-buttons-3.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:700,400italic,400' rel='stylesheet' type='text/css'>
+    <script src="Scripts/lib/jquery.min.js"></script>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+    
+   <!-- if title is Home, home.ejs content is displayed -->
+    <% if(title == "Home") { %>
+    <%   include partials/home.ejs %>
+    <%   }%>
+    
+     <!-- if title is About Me, about.ejs content is displayed -->
+    <% if(title == "About") { %>
+    <%   include partials/about.ejs %> 
+    <%   }%>
+    
+    <!-- if title is Contact Me, contact.ejs content is displayed -->
+    <% if(title == "Contact Me") { %>
+    <%   include partials/contact.ejs %>
+    <%   }%>
+    
+    <!-- if title is Services, services.ejs content is displayed -->
+    <% if(title == "Services") { %>
+    <%   include partials/Services.ejs %>
+    <%   }%>
+    
+    <!-- if title is Featured Work, projects.ejs content is displayed -->
+    <% if(title == "Featured Work") { %>
+    <%   include partials/projects.ejs %>
+    <%   }%>
+    
+    <% include partials/footer.ejs %>
+    
+    
+    <script src="/Scripts/lib/jquery.js"></script>
+    <script src="/Scripts/lib/bootstrap.min.js"></script>
+    <script src="/Scripts/lib/angular.min.js"></script>
+    <script src="/Scripts/app.js"></script>
+  </body>
+</html>
