@@ -13,18 +13,5 @@
     "express": "~4.12.0",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  },
-  "description": "Express Portfolio Project",
-  "main": "app.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MohammedSumon/expressPortfolio.git"
-  },
-  "author": "Tom Tsiliopoulos",
-  "license": "ISC",
-  "bugs": {
-    "url":"https://github.com/MohammedSumon/expressPortfolio/issues"
-  },
- "homepage":"https://github.com/MohammedSumon/expressPortfolio"
+  }
 }
