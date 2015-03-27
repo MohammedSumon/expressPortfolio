@@ -1,3 +1,7 @@
+/*File Name--expressPortfolio
+Author:Mohammed Sumon
+Website Name: Mohammed Sumon's Portfolio Website
+This is my app.ejs partial file for views */
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');

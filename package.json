@@ -1,3 +1,7 @@
+/*File Name--expressPortfolio
+Author:Mohammed Sumon
+Website Name: Mohammed Sumon's Portfolio Website
+This is my package.json partial file for views */
 {
   "name": "expressPortfolio",
   "version": "0.0.1",
